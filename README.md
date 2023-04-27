@@ -29,4 +29,4 @@ Ajouter une fonctionnalité pour permettre aux joueurs de choisir la taille du p
 Ajouter une fonctionnalité pour permettre aux joueurs de jouer contre un ordinateur (en utilisant une IA simple).
 Ajouter une fonctionnalité pour enregistrer les scores des joueurs sur plusieurs parties.
 Auteur
-Ce programme a été créé par [votre nom].
+Ce programme a été créé par MDFLAMorANGELS.
