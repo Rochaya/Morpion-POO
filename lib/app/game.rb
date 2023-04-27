@@ -7,9 +7,9 @@ class Game
     puts "====================================="
 
     @board = Board.new
-    print "saissisez votre nom Joueur 1 >>"
+    print "Saissisez votre nom Joueur 1 >>"
     player1_name = gets.chomp
-    print "saissisez votre nom Joueur 2 >>"
+    print "Saissisez votre nom Joueur 2 >>"
     player2_name = gets.chomp
     @players = [Player.new(player1_name, "X"), Player.new(player2_name, "O")]
     @current_player = @players[0]
@@ -28,8 +28,6 @@ class Game
     end
   end
 
-  private
-
   def play_turn
     @show.prompt_player(@current_player)
     position = gets.chomp.to_i
@@ -38,7 +36,7 @@ class Game
       @board.display
       switch_players
     else
-      puts "Invalid move. Please try again."
+      puts "Mouvement impossible, choisis un autre mouvement"
     end
   end
 
