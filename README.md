@@ -5,7 +5,7 @@ Ce programme est une implémentation du jeu Morpion (aussi connu sous le nom de 
 
 Le jeu se joue en deux joueurs, X et O, qui placent tour à tour leur symbole sur un plateau 3x3. Le but du jeu est d'aligner trois symboles identiques horizontalement, verticalement ou en diagonale.
 
-Comment jouer
+##Comment jouer
 Pour jouer au Morpion, il suffit d'exécuter le fichier application.rb dans un terminal :
 
 Copy code
